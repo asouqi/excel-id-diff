@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/excel-id-diff",
   siteMetadata: {
     title: "Gatsby Default Starter",
     description:
