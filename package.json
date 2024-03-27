@@ -1,0 +1,78 @@
+{
+  "name": "excel-id-diff",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Ahmad Souqi",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mdx-js/mdx": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "bootstrap": "^5.3.3",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-cname": "^1.0.0",
+    "gatsby-plugin-manifest": "^5.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-offline": "^6.8.0",
+    "gatsby-plugin-page-creator": "^5.8.0",
+    "gatsby-plugin-react-helmet": "^6.8.0",
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-typescript": "^5.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-helmet": "^6.1.0",
+    "read-excel-file": "^5.7.1",
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.6",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^5.58.0",
+    "babel-plugin-styled-components": "^2.1.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unused-imports": "^0.1.3",
+    "eslint-webpack-plugin": "^3.0.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint --ignore-path .gitignore --ignore-path .eslintrc.js --ext ts --ext tsx --ext js --ext css",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/excel-id-diff"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run prettier-format && yarn run lint && yarn run test"
+    }
+  }
+}
